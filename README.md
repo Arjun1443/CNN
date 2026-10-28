@@ -1,5 +1,19 @@
 # CIFAR-10 Image Classification with CNNs
 
+## Interactive Streamlit app
+
+A companion application is available in [streamlit_app/app.py](streamlit_app/app.py).
+
+```bash
+python -m pip install -r streamlit_app/requirements.txt
+python -m streamlit run streamlit_app/app.py
+```
+
+Image inference requires a compatible trained .keras checkpoint. A compact CIFAR-10 training/export script is included; no pretrained checkpoint is committed.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. A live deployment is not yet confirmed.
+
+
 A TensorFlow/Keras notebook exploring image classification on CIFAR-10 using convolutional layers.
 
 ## Why this project matters
